@@ -15,7 +15,7 @@
                  input_nc: 3                             
                   isTrain: False                         	[default: None]
                 load_iter: 0                             	[default: 0]
-                load_size: 256                           
+                load_size: 384                           	[default: 256]
          max_dataset_size: inf                           
                     model: cycle_gan                     	[default: test]
                n_layers_D: 3                             
@@ -32,7 +32,7 @@
               num_threads: 4                             
                 output_nc: 3                             
                     phase: test                          
-               preprocess: none                          	[default: resize_and_crop]
+               preprocess: resize                        	[default: resize_and_crop]
               results_dir: ./results/                    
            serial_batches: False                         
                    suffix:                               
